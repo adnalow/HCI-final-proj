@@ -846,3 +846,43 @@ header {
     font-style: italic;
     margin: 63px 0px 0px 160px;
 }
+
+/* animations */
+.uc-card, .lc-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.uc-card:hover, .lc-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cta-promotion-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button-gea, .cta-services-button, .stake-now, .cta-footer,.cta-promotion-container,.sc-card  {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.button-gea:hover, .cta-services-button:hover, .stake-now:hover, .cta-footer:hover {
+    background-color: #6F5343;
+    transform: translateY(-5px);
+}
+
+.sc-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.login {
+    cursor: pointer;
+}
+
+.row-icons img {
+    transition: transform 0.3s ease; 
+}
+
+.row-icons img:hover {
+    transform: scale(1.3); 
+}
+
